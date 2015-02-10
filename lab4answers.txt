@@ -1,0 +1,3 @@
+In the Android project, the "res" folder consists of a few sub-folders that are responsible for each of the resources such as layout and menu.
+
+In particular, there may be more than one layout folder that determine the size groups, such example would be "layout-large" folder. Although it is not a must to explicitly declare in the manifest file, Android system is able to auto-detect the device's screen size and find the most appropriate layout folder to present the view.
